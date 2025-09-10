@@ -15,7 +15,7 @@ Your LinkedIn profile scraper is now ready to share! Here are the best methods:
 
 ### Step 2: Push Your Code
 ```bash
-# In your terminal (in the /Users/boriswork/web-scraper directory):
+# In your terminal (navigate to your project directory first):
 git remote add origin https://github.com/YOUR-USERNAME/linkedin-profile-scraper.git
 git branch -M main
 git push -u origin main

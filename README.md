@@ -57,13 +57,13 @@ npm run scrape "https://www.linkedin.com/in/username/"
 
 ```bash
 # Download to default ./downloads folder
-node scrape-linkedin.js "https://www.linkedin.com/in/boristai/"
+node scrape-linkedin.js "https://www.linkedin.com/in/username/"
 
 # Download to custom folder
-node scrape-linkedin.js "https://www.linkedin.com/in/boristai/" "./team-photos"
+node scrape-linkedin.js "https://www.linkedin.com/in/username/" "./team-photos"
 
 # Using the advanced version with detailed logs
-node pre-auth-scraper.js "https://www.linkedin.com/in/boristai/" "./images"
+node pre-auth-scraper.js "https://www.linkedin.com/in/username/" "./images"
 ```
 
 ## 📂 Project Structure
@@ -83,7 +83,7 @@ linkedin-profile-scraper/
 ### Output Format
 Images are saved with descriptive filenames:
 - Format: `{username}_profile_{timestamp}.jpg`
-- Example: `boristai_profile_20250910T173221.jpg`
+- Example: `username_profile_20250910T173221.jpg`
 
 ### Supported URLs
 - ✅ `https://www.linkedin.com/in/username/`
