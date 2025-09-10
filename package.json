@@ -1,0 +1,30 @@
+{
+  "name": "linkedin-profile-scraper",
+  "version": "1.0.0",
+  "description": "A fast, reliable tool to download LinkedIn profile pictures without authentication using browser automation",
+  "main": "scrape-linkedin.js",
+  "scripts": {
+    "scrape": "node scrape-linkedin.js",
+    "advanced": "node pre-auth-scraper.js", 
+    "simple": "node simple-scraper.js",
+    "example": "node example.js",
+    "start": "node scrape-linkedin.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "linkedin",
+    "scraper",
+    "profile",
+    "image",
+    "download",
+    "playwright",
+    "automation",
+    "headless",
+    "browser"
+  ],
+  "author": "Boris Tai",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}
